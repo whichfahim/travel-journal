@@ -1,0 +1,156 @@
+.main-nav{
+  background-color: #F55A5A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  gap: 7px;
+  
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+
+  color: #FFFFFF;
+}
+
+.nav-icon{
+  height: 24px;
+  width: 24px;
+}
+
+.card{
+  position: relative;
+  width: 470px;
+  height: 168px;
+
+  margin-top: 18px;
+  
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* flex-wrap: wrap; */
+}
+
+.card > * {
+  margin-bottom: 7px;
+}
+
+.card--location{
+  display: flex;
+  gap: 4px;
+  padding-top: 20px;
+  /* position: relative;
+  top: 36px;
+  left: 150px; */
+
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+
+  color: #2B283A;
+  /* width: 100%; */
+  /* flex-direction: column; */
+  /* align-items: flex-start; */
+  /* justify-content: baseline; */
+  /* justify-items: left; */
+}
+
+.card--location-name{
+  text-transform: uppercase;
+  margin-right: 8px;
+}
+
+/* .card--location-link{
+      display: flex; 
+} 
+*/
+
+.card--icon-pin{
+  width: 7px;
+  display: inline-block;
+}
+
+.card--img{
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+  /* display: flex; */
+  float: left;
+  margin-right: 20px;
+  object-fit: cover;
+
+  /* position: absolute; */
+}
+
+.card--title{
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #2B283A;
+}
+
+.card--date{
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 12px;
+
+  color: #2B283A;
+  /* width: 100%; */
+}
+
+.card--description{
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  /* or 15px */
+  color: #2B283A;
+}
+
+.divider{
+  margin-top: 20px;
+  border: 1px solid #F5F5F5;
+  border-radius: 5px;
+}
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
